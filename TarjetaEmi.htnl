@@ -1,0 +1,60 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¡Feliz cumpleaños!</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #fdf6e3, #ffe0b2);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: #fff3e0;
+      border-radius: 16px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      padding: 24px;
+      max-width: 400px;
+      text-align: center;
+    }
+    .emoji {
+      font-size: 48px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 24px;
+      color: #e65100;
+      margin: 0 0 12px;
+    }
+    p {
+      font-size: 16px;
+      color: #4e342e;
+      margin: 8px 0;
+    }
+    .footer {
+      font-size: 12px;
+      color: #8d6e63;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="emoji">🎉🌏🎂</div>
+    <h1>¡Feliz cumpleaños!</h1>
+    <p>Desde <strong>México</strong> hasta <strong>Australia</strong>,</p>
+    <p>te mando un abrazo gigante lleno de cariño 🧡</p>
+    <p>¡Qué maravilla cumplir años allá!</p>
+    <p>Y además tienes <strong>doble celebración</strong>... 🎁</p>
+    <p>¡Hoy es tu cumple en Australia, y mañana sigue siéndolo en México!</p>
+    <p>Así que aprovecha las <strong>horas extra de pastel</strong> 🕒🍰</p>
+    <div class="footer">Con mucho amor, desde el otro lado del mundo 🌎</div>
+  </div>
+</body>
+</html>
